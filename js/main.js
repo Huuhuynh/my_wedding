@@ -5,7 +5,7 @@
 ==========================================*/
 
 (function($) {
-    var audio = new Audio('https://raw.githubusercontent.com/pmq2212/hanh-phuc-quang-mai/master/music/hon_ca_yeu.mp3');
+    var audio = new Audio('https://raw.githubusercontent.com/Huuhuynh/my_wedding/blob/main/music/hon_ca_yeu.mp3');
     var isFirst = true;
     var swiper = new Swiper('.swiper-container', {
         loop: true,
@@ -185,7 +185,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2022/08/28', function(event) {
+        $('#clock').countdown('2022/10/29', function(event) {
             var $this = $(this).html(event.strftime('' +
                 '<div class="box"><div class="date">%D</div> <span>Days</span> </div>' +
                 '<div class="box"><div class="date">%H</div> <span>Hours</span> </div>' +
