@@ -5,7 +5,7 @@
 ==========================================*/
 
 (function($) {
-    var audio = new Audio('https://raw.githubusercontent.com/Huuhuynh/my_wedding/blob/main/music/hon_ca_yeu.mp3');
+    var audio = new Audio('https://github.com/Huuhuynh/my_wedding/blob/main/music/BaiNayKhongDeDiDien-AnhTuAtus-8076045.mp3?raw=true');
     var isFirst = true;
     var swiper = new Swiper('.swiper-container', {
         loop: true,
