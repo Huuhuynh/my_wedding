@@ -1599,11 +1599,13 @@ footer-area
 }
 
 .content-sub {
-    padding: 50px 80px;
-    background: rgba(94, 154, 142, .5);
+    padding: 0px 0px;
+    /* background: rgba(94, 154, 142, .5); */
     display: inline-block;
     z-index: 99;
     position: relative;
+    width: 300px;
+    height: 300px;
 }
 
 .content-sub:before {
@@ -1613,7 +1615,7 @@ footer-area
     top: -6px;
     width: 103%;
     height: 105%;
-    border: 1px solid rgba(255,255,255, 0.4);
+    /* border: 1px solid rgba(255,255,255, 0.4); */
 }
 
 .content-sub h2 {
